@@ -1312,7 +1312,7 @@ def index():
     return "Hello, world!"
 
 
-app.run(port=port)
+app.run(host='0.0.0.0')
 
 
 
